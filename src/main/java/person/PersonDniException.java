@@ -2,15 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package persona;
+package person;
 
 /**
  *
  * @author g.guzman
  */
-public class PersonaNombreException extends Exception {
+public class PersonDniException extends Exception {
 
-    public PersonaNombreException(String mensaje) {
-        super(mensaje);
+    public PersonDniException(String message) {
+        super(message);
     }
 }

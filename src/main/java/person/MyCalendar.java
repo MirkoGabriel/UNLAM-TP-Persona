@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package persona;
+package person;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -11,10 +11,10 @@ import java.util.GregorianCalendar;
  *
  * @author g.guzman
  */
-public class MiCalendario extends GregorianCalendar {
+public class MyCalendar extends GregorianCalendar {
 
-    public MiCalendario(int dia, int mes, int anio) throws MiCalendarioException {
-        super(anio, mes-1, dia);
+    public MyCalendar(int day, int month, int year) throws MyCalendarException {
+        super(year, month-1, day);
         
         setLenient(false); // evitar la permisividad
         
@@ -22,25 +22,25 @@ public class MiCalendario extends GregorianCalendar {
             get(Calendar.MONTH);
         }
         catch (IllegalArgumentException ex) {
-            throw new MiCalendarioException("Fecha incorrecta ("+ex.getMessage()+")");
+            throw new MyCalendarException("Wrong date ("+ex.getMessage()+")");
         }
     }
 
-    public int getDia() {
+    public int getDay() {
         return get(DAY_OF_MONTH);
     }
             
-    public int getMes() {
+    public int getMonth() {
         return get(MONTH)+1;
     }
     
-    public int getAnio() {
+    public int getYear() {
         return get(YEAR);
     }
     
     @Override
     public String toString() {
-        return String.format("%02d/%02d/%04d",getDia(),getMes(),getAnio());
+        return String.format("%02d/%02d/%04d", getDay(), getMonth(), getYear());
     }
     
     

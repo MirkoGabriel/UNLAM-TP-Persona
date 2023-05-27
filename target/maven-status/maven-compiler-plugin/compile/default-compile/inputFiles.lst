@@ -1,8 +1,8 @@
-/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/persona/PersonaDniException.java
-/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/persona/PersonaNombreException.java
-/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/persona/Persona.java
-/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/persona/MiCalendario.java
-/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/persona/Alumno.java
-/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/persona/AlumnoException.java
-/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/persona/MiCalendarioException.java
-/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/persona/PersonaException.java
+/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/person/PersonException.java
+/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/person/Person.java
+/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/person/MyCalendar.java
+/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/person/Student.java
+/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/person/PersonNameException.java
+/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/person/MyCalendarException.java
+/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/person/PersonDniException.java
+/home/mgabriel/Downloads/Programacion/EFC-PAI-2023-caba/Persona/src/main/java/person/StudentException.java

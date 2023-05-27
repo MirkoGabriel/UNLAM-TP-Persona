@@ -1,8 +1,8 @@
-persona/AlumnoException.class
-persona/PersonaException.class
-persona/PersonaDniException.class
-persona/Persona.class
-persona/MiCalendario.class
-persona/MiCalendarioException.class
-persona/Alumno.class
-persona/PersonaNombreException.class
+person/StudentException.class
+person/MyCalendar.class
+person/PersonNameException.class
+person/PersonException.class
+person/Student.class
+person/PersonDniException.class
+person/MyCalendarException.class
+person/Person.class
