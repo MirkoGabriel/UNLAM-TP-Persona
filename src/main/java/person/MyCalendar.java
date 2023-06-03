@@ -5,6 +5,7 @@
 package person;
 
 import java.util.Calendar;
+import java.util.Date;
 import java.util.GregorianCalendar;
 
 /**
@@ -42,6 +43,9 @@ public class MyCalendar extends GregorianCalendar {
     public String toString() {
         return String.format("%02d/%02d/%04d", getDay(), getMonth(), getYear());
     }
-    
+
+    public Date toSqlDate(){
+        return new Date(this.getTimeInMillis());
+    }
     
 }
