@@ -5,7 +5,7 @@
 package person;
 
 import java.util.Calendar;
-import java.util.Date;
+import java.sql.Date;
 import java.util.GregorianCalendar;
 
 /**
