@@ -27,6 +27,10 @@ public class MyCalendar extends GregorianCalendar {
         }
     }
 
+    public MyCalendar(Date sqlDate)  {
+        setTimeInMillis(sqlDate.getTime());
+    }
+
     public int getDay() {
         return get(DAY_OF_MONTH);
     }
