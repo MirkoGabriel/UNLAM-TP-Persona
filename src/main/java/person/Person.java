@@ -68,7 +68,7 @@ public abstract class Person {
     }
 
     public void setSurname(String surname) throws PersonNameException {
-        if (StringUtils.isBlank(name)) {
+        if (StringUtils.isBlank(surname)) {
             throw new PersonNameException("Surname connot be empty");
         }
         this.surname = surname.trim();
